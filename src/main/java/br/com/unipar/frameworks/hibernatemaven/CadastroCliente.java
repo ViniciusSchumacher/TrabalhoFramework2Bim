@@ -10,10 +10,7 @@ import br.com.unipar.frameworks.model.util.EntityManagerUtil;
 import javax.persistence.EntityManager;
 import javax.swing.*;
 
-/**
- *
- * @author Juliane
- */
+
 public class CadastroCliente extends javax.swing.JDialog {
     private static final Logger logger = LogManager.getLogger(CadastroCliente.class);
 

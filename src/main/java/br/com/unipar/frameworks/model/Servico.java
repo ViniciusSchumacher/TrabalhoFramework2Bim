@@ -16,8 +16,9 @@ public class Servico {
     @Column(length = 60)
     private String descricao;
 
-    @Column(scale = 4, precision = 6)
+    @Column(scale = 2, precision = 7)
     private BigDecimal valor;
+
 
     public Servico() {
     }

@@ -18,7 +18,7 @@ public class CadastroPet extends javax.swing.JDialog {
         super(parent, modal);
         this.clienteDAO = new ClienteDAO(EntityManagerUtil.getManager());
         initComponents();
-        logger.info("A tela 'Cadastro de Pet' foi aberta"); // Adicionado aqui
+        logger.info("A tela 'Cadastro de Pet' foi aberta"); //criado para gerar log na abertura da tela
     }
 
 

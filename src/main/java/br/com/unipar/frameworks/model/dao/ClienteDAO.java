@@ -29,5 +29,4 @@ public class ClienteDAO {
         return cliente;
     }
 
-    // outros métodos para atualizar, deletar, etc.
 }
